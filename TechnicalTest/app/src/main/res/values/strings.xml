@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GitHubClient</string>
+    <string name="message_error">Error occurred .\nPlease try again</string>
+    <string name="repos_detail">Repos Detail.</string>
+    <string name="followers_detail">Followers Detail.</string>
+    <string name="open_in_browser">Open in browser</string>
+    <string name="welcome_github_client_search">Welcome GitHub Client Search</string>
+    <string name="network_error">Network Error.\nYou can try your last search</string>
+    <string name="last_search">Last Search:</string>
+</resources>

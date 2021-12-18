@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="data"
+            type="com.letrinthehai.githubclient.model.SearchQuery"/>
+    </data>
+
+    <LinearLayout
+        android:id="@+id/query_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingVertical="4dp"
+        android:paddingHorizontal="@dimen/default_margin">
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_search"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@{data.queryString}"/>
+    </LinearLayout>
+</layout>
